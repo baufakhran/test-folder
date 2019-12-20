@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Type Exercise</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+  <header>
+    <h1>Type Exercise</h1>
+  </header>
+    <main>
+      <p class="lead">Type <i class="fas fa-hand-point-down"></i> this Within 3 Seconds:</p>
+      <div id="circle">
+        <h2 id="current-word">hello</h2>
+        <div id="stripes">
+          <button class="mode">EASY</button>
+          <button class="mode selected" >MEDIUM</button>
+          <button class="mode">HARD</button> 
+        </div>   
+      </div>
+
+      <input type="text" class="form-control" placeholder="Start typing..." id="word-input" autofocus>
+      <h4 class="mt-3" id="message"></h4>
+
+        <!-- Time & Score Columns -->
+        <div>
+          <div>
+            <h3>Time Left:
+              <span id="time">0</span>
+            </h3>
+          </div>
+          <div >
+            <h3>Score:
+              <span id="score">0</span>
+            </h3>
+          </div>
+        </div>
+
+        <!-- Instructions -->
+
+        <div class="card">
+          <h2>Instructions :</h2>
+          <p>Type. To play again, just type the current word. Your score will reset</p>
+        </div>
+    </main>
+  <script src="main.js"></script>
+</body>
+
+</html>

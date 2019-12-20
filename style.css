@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+  text-align: center;
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
+}
+
+h1{
+	margin: 0 auto; 
+	padding-left: auto;
+	color:white;
+}
+
+header{ 
+	padding-top: 20px;
+	background: #00000033;
+	height: 60px;
+}
+
+.card{
+  background: #2b275200;
+	width : 300px;
+	border-radius: 15px;
+	margin : 0 auto; 
+	padding: 10px;
+	color: #695a5b;
+}
+
+#current-word{
+	color: white;
+	font-size: 50px;
+	padding-top: 30px;
+	margin: 0 auto 50px auto;
+}
+
+#circle{
+	position: grid;
+	background:#7b495475;
+	border-radius: 20px;
+	height: 125px;
+	width: 400px;
+	margin:20px auto;
+}
+
+.selected{
+	background-color: #471c37;
+  color: white;
+}
+button{
+  border-radius: 5px;
+}
+
+input{
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
